@@ -11,7 +11,7 @@ function showTab(tabName) {
     tab.classList.add('active');
 
     // Hide the success message when switching tabs
-    const successMessage = document.querySelector('.success-message');
+    const successMessage = document.querySelector('#qrcode-container');
     successMessage.style.display = 'none';
 }
 
